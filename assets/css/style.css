@@ -208,3 +208,35 @@ header nav .right span{
     color: #B6B6B6;
     padding: 5px 0;
 }
+
+.featured-ads{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.featured-ads .card{
+    display: flex;
+    background-color: #fff2d9;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding-left: 48px;
+    border-radius: 10px;
+}
+
+.featured-ads .card h1{
+    font-size: 24px;
+}
+
+.featured-ads .card img{
+    height: 150px;
+}
+
+.featured-ads .card button{
+    background-color: #3BB77E;
+    padding: 10px 15px;
+    color: white;
+    margin-top: 20px;
+    border-radius:5px;
+}
