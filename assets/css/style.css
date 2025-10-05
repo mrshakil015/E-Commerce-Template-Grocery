@@ -240,3 +240,83 @@ header nav .right span{
     margin-top: 20px;
     border-radius:5px;
 }
+
+/* Popular product */
+.popular-product .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.popular-product .top ul{
+    display: flex;
+    gap: 30px;
+}
+
+.popular-product .top ul li{
+    list-style: none;
+}
+
+.popular-product .top ul li:first-child{
+    font-weight: bold;
+}
+
+
+.popular-product .container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    margin-top: 53px;
+}
+
+.popular-product .container .card{
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.popular-product .container .card-image {
+    text-align: center;
+}
+
+.popular-product .container .card-image img {
+    height: 145px;
+    padding: 30px;
+}
+
+.popular-product .container .card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.popular-product .container .card-content h1{
+    font-size: 16px;   
+}
+
+.popular-product .container .card-content span{
+    font-size: 14px;   
+    color: #A4A1A1;
+}
+
+.popular-product .container .card-content .card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popular-product .container .card-content .card-footer .price{
+    color: #3BB77E;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.popular-product .container .card-content .card-footer .btn{
+    padding: 6px 11px;
+    background-color: #DEF9EC;
+    color: #3BB77E;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
