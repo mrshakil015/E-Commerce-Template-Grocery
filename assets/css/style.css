@@ -13,7 +13,7 @@ body{
 }
 /* ------Common----- */
 section{
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .btn{
@@ -29,6 +29,11 @@ input:focus{
     border: none;
 }
 
+.section-title{
+    font-size: 32px;
+
+}
+
 /* --------Navbar------------ */
 
 /* header{
@@ -41,6 +46,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #e4e1e1;
 }
 
 .nav-logo img{
@@ -58,6 +64,7 @@ header nav .center ul {
 
 header nav .center ul li{
     list-style: none;
+    font-weight: 400;
 }
 
 header nav .right{
@@ -137,3 +144,39 @@ header nav .right span{
     max-height: 597px;
 }
 
+
+
+/* Featured */
+.featured .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.featured .top ul{
+    display: flex;
+    gap: 30px;
+}
+
+.featured .top ul li{
+    list-style: none;
+}
+
+.featured .top ul li:first-child{
+    font-weight: bold;
+}
+
+.featured .left-arrow{
+    height: 40px;
+    width: 40px;
+    background-color: #F2F3F4;
+    color: #A4A1A1;
+}
+
+.featured .right-arrow{
+    height: 40px;
+    width: 40px;
+    background-color: #3BB77E;
+    color: white;
+}
