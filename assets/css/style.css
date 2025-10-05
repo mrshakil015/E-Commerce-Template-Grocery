@@ -34,6 +34,11 @@ input:focus{
 
 }
 
+.card-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* --------Navbar------------ */
 
 /* header{
@@ -50,7 +55,7 @@ nav {
 }
 
 .nav-logo img{
-    width: 120px;
+    width: 150px;
 }
 
 header nav .center ul {
@@ -64,7 +69,8 @@ header nav .center ul {
 
 header nav .center ul li{
     list-style: none;
-    font-weight: 400;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 header nav .right{
@@ -179,4 +185,26 @@ header nav .right span{
     width: 40px;
     background-color: #3BB77E;
     color: white;
+}
+
+.featured .box{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.featured .box .card{
+    background-color: #f2fce4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.featured .box .card span{
+    color: #B6B6B6;
+    padding: 5px 0;
 }
