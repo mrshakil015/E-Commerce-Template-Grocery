@@ -1,0 +1,61 @@
+.bottom-banner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff2d9;
+    height: 597px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main .bottom-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(../images/bottom-banner-bg.png) center/cover no-repeat;
+    opacity: 0.1;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.bottom-banner .content {
+    position: relative;
+    z-index: 2;
+    padding-left: 121px;
+}
+
+.bottom-banner .content h1{
+    font-size: 72px;
+    color: #253D4E;
+
+}
+
+.bottom-banner .subscribe{
+    margin-top: 60px;
+}
+.bottom-banner .subscribe input{
+    background-color: white;
+    border-radius: 30px;
+    width: 283px;
+    padding: 15px 15px;
+    border: none;
+}
+
+.bottom-banner .subscribe .subscribe-btn{
+    background-color: #3BB77E;
+    padding: 15px;
+    color: white;
+    position: relative;
+    right: 95px;
+}
+
+.bottom-banner .content p{
+    font-size: 30px;
+    color: #A4A1A1;
+    padding-top: 30px;
+}
+
+.main .bottom-banner .bottom-banner-bg img{
+    max-height: 597px;
+}
